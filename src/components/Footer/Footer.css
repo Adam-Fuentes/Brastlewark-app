@@ -1,0 +1,11 @@
+.Footer{
+    background-color: rgb(80, 80, 80);    
+}
+
+.Footer__copyright{
+    text-align: center;
+    height: 8rem;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    color: rgb(197, 197, 197);
+}
