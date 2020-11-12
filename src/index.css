@@ -1,0 +1,15 @@
+*,
+*::after,
+*::before{/*ahora todos los elementos seguro que lo tienen, si no se pone se puede joder algún sudo*/
+    margin: 0;
+    padding: 0;   
+    box-sizing: inherit;    
+}
+
+html{
+    font-size: 62.5%;/*10px ^^, calculo de hacer el 10% de los 16px de la fuente por defecto, así evitamos que el user cambie las medidas a su antojo*/
+}
+
+body{
+    box-sizing: border-box; 
+}
