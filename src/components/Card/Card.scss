@@ -1,0 +1,76 @@
+.card{
+    position: relative;
+    height: 47rem;
+    width: 27%;
+    float: left;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(#000, .15);
+    margin: 30px;  
+
+    &__picture{
+        background-size: cover;
+        height: 13rem;
+        background-blend-mode: screen;/*efecto para que se vea la imagen con el color de fondo*/
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);/*por si falla en el navegador*/
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);  
+        border-top-left-radius: 3px;      
+        border-top-right-radius: 3px;  
+
+        &--1{
+            background-image: 
+            linear-gradient(to right bottom, #f7f7f7, #333),
+            url("https://davefeedsite.files.wordpress.com/2019/08/what-happened-to-mekkatorque-thumbnail-davefeed.png");
+        }
+    }
+
+    &__heading{
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: white;
+        position: absolute;
+        top: 8rem;
+        left: 3rem;
+        width: 75%;    
+    }
+
+    &__heading-span{
+        padding: 0.3rem 1.5rem;
+        box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
+
+        &--1{
+            background-image: 
+            linear-gradient(to right bottom, 
+            rgba(#f7f7f7, .85), 
+            rgba(#333, .85));
+        }
+    }
+
+    &__details{
+        padding: 3rem;
+
+        ul{
+            list-style: none;
+            width: 80%;
+            margin: 0 auto;
+
+            li{
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 1rem;
+
+                &:not(:last-child){
+                    border-bottom: 1px solid #eee;
+                }
+            }
+        }
+    }
+
+    &__text{
+        text-align: left;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,16 @@
+.deck{
+    background-color: rgb(80, 80, 80);
+    padding: 15rem;
+    height: 105vh;
+    margin-top: -15vh;
+
+    &__search{
+        text-align: center;
+        position: relative;
+        right: 1.1%;
+    }
+}
+
+.row{
+    margin: 0 auto;
+}

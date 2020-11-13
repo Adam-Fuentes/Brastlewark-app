@@ -1,16 +1,16 @@
 .Heading{
-    height: 100vh;
+    height: 70vh;
     background-image: url("https://i.pinimg.com/originals/c2/16/42/c216421d27e7d3d4e1f62d3ada87b7b3.jpg");
     background-size: cover;
     background-position: top;
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 55vh, 0 100%);
 }
 
 .Heading__Text-box{
     position: absolute;
-    top: 55%;
-    left: 15%;
+    top: 50%;
+    left: 20%;
     text-align: center;
 }
 
